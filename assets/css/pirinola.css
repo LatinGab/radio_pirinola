@@ -1,0 +1,56 @@
+ul.nav li a {
+   color:white;
+}
+
+nav > li > a:focus, .nav > li > a:hover{
+   background-color: #7109f6;
+   color: #f0f0f0;
+}
+
+navbar-toggle {
+   border: 1px solid white;
+
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    background-color: white;
+}
+
+.navbar-toggle .icon-bar {
+   background-color: white;
+}
+
+.mi_barra {
+  background-color: #7109f6;
+  color: white;
+  text-decoration: none;
+}
+
+.imagen_radio {
+ background-image: url("../img/portada.jpg");
+ background-size: cover;
+ background-position:center;
+ text-align: center;
+ height: 90vh;
+ padding-top: 120px;
+ margin-top: 51px;
+ font-family:"Playfair Display";
+ font-style: italic;
+ font-weight: 700;
+ color: white;
+}
+
+.h1_titulo {
+  font-size: 70px;
+}
+
+.icono_flecha{
+  color: white;
+  width: 50px;
+}
+
+.parrafo {
+  font-family:"Roboto";
+  ont-style: normal;
+  font-weight: 300;
+  padding: 50px;
+}
