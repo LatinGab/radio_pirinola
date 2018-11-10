@@ -25,27 +25,21 @@ navbar-toggle {
   text-decoration: none;
 }
 
-.imagen_radio {
- background-image: url("../img/portada.jpg");
- background-size: cover;
- background-position:center;
- text-align: center;
- height: 90vh;
- padding-top: 120px;
- margin-top: 51px;
- font-family:"Playfair Display";
- font-style: italic;
- font-weight: 700;
- color: white;
+.logo_barra {
+  font-family: 'Pacifico', cursive;
+  color: white;
 }
 
+.reproductor{
+  padding-top: 50px;
+}
+
+.thumbnail {
+  padding: 10px;
+
+}
 .h1_titulo {
   font-size: 70px;
-}
-
-.icono_flecha{
-  color: white;
-  width: 50px;
 }
 
 .parrafo {
@@ -53,4 +47,29 @@ navbar-toggle {
   ont-style: normal;
   font-weight: 300;
   padding: 50px;
+}
+
+.jumbotron {
+  font-family: 'Pacifico', cursive;
+  background-position: center;
+  background-color: #57f58d;
+  text-align: center;
+  color: white;
+}
+
+.bloque_noticias{
+  margin-top: 20px;
+}
+
+.panel_footer {
+  background-color: #fec704;
+  color:white;
+  margin-top: -30px;
+}
+
+@media(max-width:500px) {
+/* Joomla Category Blog Pagination Hide */
+#myCarousel{
+    display:none!important
+}
 }
