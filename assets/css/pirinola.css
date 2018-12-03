@@ -67,6 +67,23 @@ navbar-toggle {
   margin-top: -30px;
 }
 
+.featured {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin: auto;
+}
+
+.gallery {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.thumb {
+  width: 150px;
+  height: 100px;
+}
+
 @media(max-width:500px) {
 /* Joomla Category Blog Pagination Hide */
 #myCarousel{
