@@ -38,8 +38,33 @@ navbar-toggle {
   padding: 10px;
 }
 
-.h1_titulo {
-  font-size: 70px;
+.titulos_secciones{
+  font-family:"Pacifico";
+  ont-style: normal;
+  font-size: 50px;
+  color: #7109f6;
+  padding-top: 30px;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10px;
+  width: 200px;
+  background-color: #57f58d;
+}
+
+.notas_musicales{
+  color: #cccccc;
+}
+
+.titulos_noticias{
+  font-family: "Roboto"
+  font-size: 20px;
+  color: #cccccc;
 }
 
 .parrafo {
@@ -50,10 +75,8 @@ navbar-toggle {
 }
 
 .jumbotron {
-  font-family: 'Pacifico', cursive;
-  background-position: center;
-  background-color: #57f58d;
-  text-align: center;
+  background-color: #fc8305;
+  text-align: justify;
   color: white;
 }
 
@@ -64,7 +87,6 @@ navbar-toggle {
 .panel_footer {
   background-color: #fec704;
   color:white;
-  margin-top: -30px;
 }
 
 .featured {
@@ -111,12 +133,12 @@ navbar-toggle {
   text-align: justify;
 }
 
-.reproductor_noticia{
+.reproductor_radio{
   position: fixed;
   bottom: 0;
   left: 0;
-  height: 102px;
   width: 100%;
+  background-color: #7109f6;
 }
 
 .reproductor_programacion{
@@ -149,4 +171,186 @@ navbar-toggle {
   margin-left: 5%;
 }
 }
+}
+
+/* css reproductor */
+
+.player {
+  position: relative;
+  width: 500px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  border-radius: 2px;
+  padding: 5 16px;
+}
+.player img {
+  margin-top: 5px;
+  width: 60px;
+  height: 50px;
+}
+.player .info {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 50%;
+  padding: 0 16px;
+}
+.player .info .name {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+.player .info .singer {
+  font-size: 12px;
+  color: white;
+}
+.player .btns {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+.player .btns div:nth-child(1) {
+  font-size: 30px;
+}
+.player .btns div:nth-child(2), .player .btns div:nth-child(3) {
+  font-size: 18px;
+}
+.player .progress {
+  position: absolute;
+  height: 2px;
+  left: 0;
+  top: 0;
+  background-color: #00a8ff;
+}
+
+@font-face {
+  font-family: iconfont;
+  src: url("iconfont-4e6.woff") format("woff");
+}
+.iconfont {
+  font-family: iconfont !important;
+  font-size: 16px;
+  font-style: normal;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-list:before {
+  content: "";
+}
+
+.icon-loop-single:before {
+  content: "";
+}
+
+.icon-arrow-right:before {
+  content: "";
+}
+
+.icon-loop:before {
+  content: "";
+}
+
+.icon-prev:before {
+  content: "";
+}
+
+.icon-favor:before {
+  content: "";
+}
+
+.icon-next:before {
+  content: "";
+}
+
+.icon-download:before {
+  content: "";
+}
+
+.icon-search:before {
+  content: "";
+}
+
+.icon-zhanwei1:before {
+  content: "";
+}
+
+.icon-favor1:before {
+  content: "";
+}
+
+.icon-random:before {
+  content: "";
+}
+
+.icon-play:before {
+  content: "";
+}
+
+.icon-stop:before {
+  content: "";
+}
+
+.icon-mv:before {
+  content: "";
+}
+
+.icon-arrow-down:before {
+  content: "";
+}
+
+.icon-arrow-left:before {
+  content: "";
+}
+
+.icon-arrow-up:before {
+  content: "";
+}
+
+.icon-listen:before {
+  content: "";
+}
+
+.icon-round:before {
+  content: "";
+}
+
+.icon-triangle:before {
+  content: "";
+}
+
+.icon-information:before {
+  content: "";
+}
+
+.icon-home:before {
+  content: "";
+}
+
+.icon-i:before {
+  content: "";
+}
+
+.icon-information-:before {
+  content: "";
+}
+
+.icon-bubble-filled-icon:before {
+  content: "";
+}
+
+.icon-round-right:before {
+  content: "";
+}
+
+.icon-vip:before {
+  content: "";
+}
+
+.icon-word:before {
+  content: "";
 }
