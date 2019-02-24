@@ -3,7 +3,7 @@ ul.nav li a {
 }
 
 nav > li > a:focus, .nav > li > a:hover{
-   background-color: #7109f6;
+   background-color: #f609f4;
    color: #f0f0f0;
 }
 
@@ -31,7 +31,7 @@ navbar-toggle {
 }
 
 .reproductor{
-  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .thumbnail {
