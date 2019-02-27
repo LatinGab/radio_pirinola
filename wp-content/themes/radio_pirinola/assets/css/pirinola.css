@@ -1,0 +1,420 @@
+ul.nav li a {
+   color:white;
+}
+
+nav > li > a:focus, .nav > li > a:hover{
+   background-color: #f609f4;
+   color: #f0f0f0;
+}
+
+navbar-toggle {
+   border: 1px solid white;
+
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    background-color: white;
+}
+
+.navbar-toggle .icon-bar {
+   background-color: white;
+}
+
+.mi_barra {
+  background-color: #7109f6;
+  color: white;
+  text-decoration: none;
+}
+
+.mi_barra img {
+  width: auto;
+  position: relative;
+  float: left;
+}
+
+.logo_barra {
+  font-family: 'Pacifico', cursive;
+  color: white;
+}
+
+.reproductor{
+  padding-bottom: 30px;
+}
+
+.thumbnail {
+  padding: 10px;
+}
+
+.titulos_secciones{
+  font-family:"Pacifico";
+  ont-style: normal;
+  font-size: 50px;
+  color: #7109f6;
+  padding-top: 30px;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10px;
+  width: 200px;
+  background-color: #57f58d;
+}
+
+.cold-md-6 img {
+  width: auto;
+  position: relative;
+  float: left;
+}
+
+.notas_musicales{
+  color: #cccccc;
+}
+
+.titulos_noticias{
+  font-family: "Roboto"
+  font-size: 15px;
+  color: #cccccc;
+}
+
+.parrafo {
+  font-family:"Roboto";
+  ont-style: normal;
+  font-weight: 300;
+  padding: 50px;
+}
+
+.jumbotron {
+  background-color: #fc8305;
+  text-align: justify;
+  color: white;
+}
+
+.bloque_noticias{
+  margin-top: 20px;
+}
+
+.panel_footer {
+  background-color: #fec704;
+  color:white;
+}
+
+.featured {
+  width: 600px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.gallery {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.thumb {
+  width: 150px;
+  height: 100px;
+}
+
+.imagen_radio {
+  width: 50%;
+}
+
+#iz{
+  text-decoration:none;
+  cursor: pointer;
+}
+
+#der{
+  position: relative;
+  float: right;
+  margin-right: 23%;
+  text-decoration:none;
+  cursor: pointer;
+}
+
+.imagen_noticia{
+  display: inline-block;
+  width: 20%;
+  margin-left: 7%;
+}
+
+.parrafo1 {
+  display: inline-block;
+  width: 60%;
+  margin-left: 1%;
+  vertical-align: top;
+  text-align: justify;
+}
+
+.reproductor_radio{
+  position: sticky;
+  position: -webkit-sticky;/* Safari */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #7109f6;
+}
+
+.reproductor_programacion{
+  width: 300px;
+  height: 100px;
+  position: inherit;
+  float: right;
+  margin: 61px;
+}
+
+@media screen and (max-width:500px) {
+#myCarousel{
+    display:none!important
+}
+.parrafo1 {
+  width: 100%;
+}
+.imagen_noticia{
+  width: 90%;
+  margin: 1%;
+}
+}
+
+@media ( min-width:501px){
+  @media (max-width:1000px) {
+
+.imagen_noticia{
+  width: 30%;
+  margin: 1%;
+  margin-left: 5%;
+}
+}
+}
+
+/* css reproductor */
+
+.player {
+  position: relative;
+  width: 500px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  border-radius: 2px;
+  margin: auto;
+}
+.player img {
+  margin-top: 5px;
+  width: 60px;
+  height: 50px;
+}
+.player .info {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: auto;
+  padding: 0 16px;
+}
+.player .info .name {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  width:-webkit-fill-available;
+}
+.player .info .singer {
+  font-size: 12px;
+  color: white;
+}
+.player .btns {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+.player .btns div:nth-child(1) {
+  font-size: 30px;
+}
+.player .btns div:nth-child(2), .player .btns div:nth-child(3) {
+  font-size: 18px;
+}
+.player .progress {
+  position: absolute;
+  height: 2px;
+  left: 0;
+  top: 0;
+  background-color: #00a8ff;
+}
+
+@font-face {
+  font-family: iconfont;
+  src: url("iconfont-4e6.woff") format("woff");
+}
+.iconfont {
+  font-family: iconfont !important;
+  font-size: 16px;
+  font-style: normal;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-list:before {
+  content: "";
+}
+
+.icon-loop-single:before {
+  content: "";
+}
+
+.icon-arrow-right:before {
+  content: "";
+}
+
+.icon-loop:before {
+  content: "";
+}
+
+.icon-prev:before {
+  content: "";
+}
+
+.icon-favor:before {
+  content: "";
+}
+
+.icon-next:before {
+  content: "";
+}
+
+.icon-download:before {
+  content: "";
+}
+
+.icon-search:before {
+  content: "";
+}
+
+.icon-zhanwei1:before {
+  content: "";
+}
+
+.icon-favor1:before {
+  content: "";
+}
+
+.icon-random:before {
+  content: "";
+}
+
+.icon-play:before {
+  content: "";
+}
+
+.icon-stop:before {
+  content: "";
+}
+
+.icon-mv:before {
+  content: "";
+}
+
+.icon-arrow-down:before {
+  content: "";
+}
+
+.icon-arrow-left:before {
+  content: "";
+}
+
+.icon-arrow-up:before {
+  content: "";
+}
+
+.icon-listen:before {
+  content: "";
+}
+
+.icon-round:before {
+  content: "";
+}
+
+.icon-triangle:before {
+  content: "";
+}
+
+.icon-information:before {
+  content: "";
+}
+
+.icon-home:before {
+  content: "";
+}
+
+.icon-i:before {
+  content: "";
+}
+
+.icon-information-:before {
+  content: "";
+}
+
+.icon-bubble-filled-icon:before {
+  content: "";
+}
+
+.icon-round-right:before {
+  content: "";
+}
+
+.icon-vip:before {
+  content: "";
+}
+
+.icon-word:before {
+  content: "";
+}
+
+/*Css Grilla bandas*/
+
+body {
+background: #f0f0f0;
+}
+
+#blog-landing {
+margin-top: 81px;
+position: relative;
+max-width: 100%;
+width: 100%;
+}
+img {
+width: auto;
+max-width: 100%;
+height: auto;
+}
+
+.white-panel {
+position: absolute;
+background: white;
+box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+padding: 10px;
+}
+.white-panel h1 {
+font-size: 2em;
+}
+.white-panel h1 a {
+color: #7109f6;
+}
+.white-panel:hover {
+box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+margin-top: -5px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+div#post-jumbotron {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

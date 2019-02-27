@@ -8,7 +8,18 @@ Objetivo de la experiencia del usuario: que usuario acceda de forma clara al rep
 Los requerimientos del sitio:
 Responsivo, que contenga 1 reproductor que permita escuchar la radio online, combinación de colores acorde a un diseño armónico.
 Diseño atrayente, moderno y simple.
-menu: inicio, programación, noticias, radio.
-en footer incluir formulario contacto y timeline de twitter de la radio.
+menu:  noticias, bandas, radio.
+En footer incluir formulario contacto y timeline de twitter de la radio.
 
-Boceto: radio_pirinola/assets/img/boceto.jpg
+Web: http://www.radiopirinola.cl
+
+Hosting:--------
+
+ftp.radiopirinola.cl
+user: radiopir
+pass: victorcrisvio
+
+WordPress admin:--------
+
+Usuario: radio_pirinola
+Clave: pirinoleando
